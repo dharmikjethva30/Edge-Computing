@@ -21,26 +21,27 @@
 
 Predictive maintenance (PdM) is a maintenance strategy that uses data analysis to predict when a machine or equipment is likely to fail. This allows for preventive maintenance to be performed before the failure occurs, avoiding costly downtime and repairs. By combining PdM with ML, it is possible to develop models that can accurately predict machine failures days, weeks, or even months in advance. This allows organizations to schedule preventive maintenance at the most opportune time, minimizing downtime and maximizing uptime.
 
+### Steps:
 
-## Download Repository
+#### Download Repository ->
 
-## Set directory
+#### Set directory ->
 
-## Create virtual environment
+#### Create virtual environment ->
 
-## Activate virtual environment
+#### Activate virtual environment ->
 
-## Install requirements
+#### Install requirements ->
 
-## Train
+#### Train ->
 
 Run `train.py` this will train the model and save the models into `models` folder
 
-## Test
+#### Test ->
 
 Run `test.py` to verify saved models work well
 
-## App
+#### App
 
 Run web app
 
@@ -77,13 +78,6 @@ Cloning into 'feynn-labs'...
 ...
 ```
 
-Dark mode:
-
-![images/Screenshot4.png](images/Screenshot4.png)
-
-Light mode:
-
-![images/Screenshot5.png](images/Screenshot5.png)
 
 # Input Data
 
