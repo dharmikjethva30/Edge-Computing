@@ -9,19 +9,13 @@
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-## [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/) Project1
-
-[![EDA and Machine Learning](https://img.shields.io/badge/Jupyter_Notebook-link-blue?style=for-the-badge&logo=jupyter)](main.ipynb)
 
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-link-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
-[![Docker image](https://img.shields.io/badge/Docker_image-Link-blue?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
-
-![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
+[![Docker image](https://img.shields.io/badge/Docker_image-Link-blue?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/dharmikjethva/edgeadmin)
 
 
 
-> I started this project at [feynn labs repo](https://github.com/Adhiban1/feynn-labs/tree/main/project1) and I create this separate repo to continue this project.
 
 ## About
 
@@ -31,63 +25,25 @@ Predictive maintenance (PdM) is a maintenance strategy that uses data analysis t
 
 ## Download Repository
 
-```
-git clone --depth 1 https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
-```
-
-## Change directory
-
-```
-cd Machine-Predictive-Maintenance
-```
+## Set directory
 
 ## Create virtual environment
 
-```
-python -m venv .venv
-```
-
 ## Activate virtual environment
 
-For windows
-```
-.venv/Scripts/activate 
-```
-
-For linux
-```
-source .venv/bin/activate
-```
-
 ## Install requirements
-
-```
-pip install -r requirements.txt
-```
 
 ## Train
 
 Run `train.py` this will train the model and save the models into `models` folder
 
-```
-python myapp/modules/train.py
-```
-
 ## Test
 
 Run `test.py` to verify saved models work well
 
-```
-python myapp/modules/test.py
-```
-
 ## App
 
 Run web app
-
-```
-python manage.py runserver 5000
-```
 
 # Setup
 
@@ -177,21 +133,11 @@ Here `failure_type`, `is_failure` columns are added in `output.csv`
 
 # Docker
 
-![Docker Pulls](https://img.shields.io/docker/pulls/adhiban/machine-predictive-maintenance) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/adhiban/machine-predictive-maintenance) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/adhiban/machine-predictive-maintenance)
-
-[![Docker image](https://img.shields.io/badge/Docker_image-Link-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/adhiban/machine-predictive-maintenance)
+[![Docker image](https://img.shields.io/badge/Docker_image-Link-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/dharmikjethva/edgeadmin)
 
 ## Docker pull
 
-```
-docker pull adhiban/machine-predictive-maintenance
-```
-
 ## Docker run
-
-```
-docker run -d -p 5000:5000 adhiban/machine-predictive-maintenance
-```
 
 Open it in browser `http://127.0.0.1:5000/`
 
